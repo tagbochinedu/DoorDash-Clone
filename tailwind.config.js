@@ -9,7 +9,8 @@ module.exports = {
       },
       colors: {
         'btnred' : '#f22411',
-        'footer' : '#191919'
+        'footer' : '#191919',
+        'playstore' : '#333232'
       }
     },
   },
