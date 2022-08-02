@@ -4,13 +4,13 @@ const Offers = () => {
   return (
     <div className="  ">
       <div className="md:flex flex-col md:flex-row  justify-between md:p-24 py-24 px-10">
-        <div className="md:w-3/12 w-full flex justify-between md:block items-center">
+        <div className="md:w-3/12 w-full flex md:justify-between justify-around md:block items-center">
           <img
             src="https://cdn.doordash.com/media/consumer/home/landing/new/ScootScoot.svg"
             alt="motorbike"
             className="w-24 md:w-36 h-24 md:h-36 md:mx-auto"
           />
-          <div className="w-8/12 md:w-full md:mx-auto">
+          <div className="w-6/12 md:w-full md:mx-auto">
             <h1 className="font-bold text-3xl md:text-center mb-4">
               Become a Dasher
             </h1>
@@ -26,13 +26,13 @@ const Offers = () => {
             </div>
           </div>
         </div>
-        <div className="md:w-3/12 w-full flex justify-between md:block items-center my-8 md:my-0">
+        <div className="md:w-3/12 w-full flex md:justify-between justify-around md:block items-center my-8 md:my-0">
           <img
             src="https://cdn.doordash.com/media/consumer/home/landing/new/Storefront%202.svg"
             alt="house icon"
             className="w-24 md:w-36 h-24 md:h-36 md:mx-auto"
           />
-          <div className="w-8/12 md:w-full md:mx-auto">
+          <div className="w-6/12 md:w-full md:mx-auto">
             <h1 className="font-bold text-3xl md:text-center mb-4">
               Become a Partner
             </h1>
@@ -47,13 +47,13 @@ const Offers = () => {
             </div>
           </div>
         </div>
-        <div className="md:w-3/12 w-full flex justify-between md:block items-center">
+        <div className="md:w-3/12 w-full flex md:justify-between justify-around md:block items-center">
           <img
             src="https://cdn.doordash.com/media/consumer/home/landing/new/iphone.svg"
             alt="store-front icon"
             className="w-24 md:w-36 h-24 md:h-36 md:mx-auto"
           />
-          <div className="w-8/12 md:w-full md:mx-auto">
+          <div className="w-6/12 md:w-full md:mx-auto">
             <h1 className="font-bold text-3xl md:text-center mb-4">
               Try the App
             </h1>
@@ -106,7 +106,7 @@ const Offers = () => {
             />
           </div>
           <div className="pl-16 md:pl-0 w-full md:w-4/12 mt-6">
-            <div className="w-8/12 md:w-full">
+            <div className="w-6/12 md:w-full">
               <h1 className="text-2xl md:text-4xl font-bold ">
                 You’ve got stuff to do. We’ve got options.
               </h1>
