@@ -1,6 +1,7 @@
 import Header from "./Components/Header";
 import FirstViewPort from "./Components/FirstViewPort";
 import Offers from "./Components/Offers";
+import Footer from "./Components/Footer";
 
 function App() {
   return (
@@ -10,6 +11,7 @@ function App() {
         <FirstViewPort />
       </div>
       <Offers />
+      <Footer/>
     </>
   );
 }
