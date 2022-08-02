@@ -16,7 +16,7 @@ const FirstViewPort = () => {
           Your favorite <br /> restaurants, delivered
         </h1>
 
-        <form className="flex items-center justify-between bg-white md:w-8/12 rounded-3xl mx-auto mt-12 p-2.5 md:p-2">
+        <form className="flex items-center justify-between bg-white md:w-8/12 rounded-3xl mx-auto mt-12 p-2.5 md:p-1">
           <LocationMarkerIcon className="text-gray-500 w-8 h-8 hidden md:block " />
           <SearchIcon className="text-gray-500 w-6 h-6 block md:hidden " />
           <input
@@ -24,8 +24,8 @@ const FirstViewPort = () => {
             className="outline-none w-9/12"
             placeholder="Enter delivery address"
           />
-          <button className="rounded-3xl md:bg-red-700 w-1/12 text-center">
-            <ArrowNarrowRightIcon className="w-6 h-6 text-gray-700 mx-auto" />
+          <button className="rounded-3xl md:bg-btnred w-1/12 text-center">
+            <ArrowNarrowRightIcon className="w-6 h-6 md:w-8 md:h-8 text-gray-700 md:text-white mx-auto" />
           </button>
         </form>
         <div className="text-center mt-4">
